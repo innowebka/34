@@ -1,4 +1,11 @@
 
+  <link rel="dns-prefetch" href="" />
+  <link rel="dns-prefetch" href="" />
+  <link rel="dns-prefetch" href="" />
+  <link rel="dns-prefetch" href="" />
+  <link rel="dns-prefetch" href="" />
+  <link rel="dns-prefetch" href="" />
+
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
     <h3 class="widget-title">Instagram</h3>
