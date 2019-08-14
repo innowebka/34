@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div>
 <!--progress bar-->
-<!-- Style defined first. Copy this to a css style sheet or to the head section -->
+<div>
+    
 <style>
 .progress-bar {
     background: linear-gradient(to right, #0eecc0 var(--scroll), transparent 0);
@@ -16,9 +16,7 @@ layout: default
     z-index: 1;
 }
 </style>
-<!-- This is the bar which shows scroll percentage -->
 <div class="progress-bar"></div>
-<!-- Script used to generate --scroll variable with current scroll percentage value -->
 <script>
 var element = document.documentElement,
   body = document.body,
@@ -32,12 +30,14 @@ document.addEventListener('scroll', function() {
 });
 </script>
 </div>
-<!--Progress bar-->
+
 </div>
+<!--progress bar-->
 
 <div class="post-image-box">
 <div class="post-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : page.image}})"></div>
 </div>
+{% include goadse.html %}
 <div class="post-content">
 
 <div class="post-head">
