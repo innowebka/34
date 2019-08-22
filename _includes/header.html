@@ -36,22 +36,4 @@
       <ol id="js-results-container" class="search-results-list"></ol>
     </div>
   </div>
- 
-<script>
-	window.oncontextmenu = function () {
-				return false;
-			}
-			$(document).keydown(function (event) {
-				if (event.keyCode == 123) {
-					return false;
-				}
-				else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
-					return false;
-				}
-				
-				else if ((event.ctrlKey && event.shiftKey && event.keyCode == 67) || (event.ctrlKey && event.shiftKey && event.keyCode == 17)) {
-					return false;
-				}
-			});
-		</script>
 </header>
