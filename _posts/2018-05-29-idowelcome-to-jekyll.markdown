@@ -1,5 +1,6 @@
 ---
 layout: post
+title:  "Wel da su!"
 date:   2018-05-29 18:05:55 +0300
 image:  11.jpg
 tags:   [Jek]
