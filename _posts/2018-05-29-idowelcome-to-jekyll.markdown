@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wel da su!"
-date:   2022-05-29 18:05:55 +0300
+date:   2020-06-16 18:05:55 +0300
 image:  11.jpg
 tags:   [Jek]
 ---
