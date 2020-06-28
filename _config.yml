@@ -21,7 +21,6 @@ markdown: kramdown
 permalink: ':title/'
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-redirect_to
 paginate: 7
