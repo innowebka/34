@@ -20,6 +20,7 @@ mailchimp:
 markdown: kramdown
 permalink: ':title/'
 plugins:
+  - jekyll-admin
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-redirect_to
